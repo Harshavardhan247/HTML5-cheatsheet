@@ -13,6 +13,7 @@
     <h4>Heading Four</h4>
     <h5>Heading Five</h5>
     <h6>Heading Six</h6>
+    <hr>
 
     <!-- Paragraph -->
     <p>
@@ -23,16 +24,20 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugit adipisci optio pariatur suscipit ducimus accusamus
         ullam, dolores quisquam odit eum! Magnam illo, fuga ut modi quas sapiente quia perferendis.
     </p>
+    <hr>
     <p>
         <!-- Some tags -->
         <strong>
             Hi this is the result of using "strong"
         </strong>
+        <br>
         <em>
             Hi this is the result of using "em"
         </em>
+        <br>
         <a href="https://www.google.com/" target="_blank">Google.com link </a>
     </p>
+    <hr>
 
     <!-- Lists -->
     <ul> 
@@ -43,6 +48,7 @@
         <li>List item 4</li>
         <li>List item 5</li>
     </ul>
+    <hr>
     <ol>
         <h1>Orderd list</h1>
         <li>List item 1</li>
@@ -51,7 +57,7 @@
         <li>List item 4</li>
         <li>List item 5</li>  
     </ol>
-
+    <hr>
     <!-- Table -->
     <table>
         <thead>
@@ -79,8 +85,56 @@
             </tr>
         </tbody>
     </table>
+    <hr>
 
-    
+    <!-- Forms -->
+    <form action="" method="POST">
+        <div>
+            <label for="">First Name</label>
+            <input type="text" name="first-name" placeholder="Enthe your first name">
+        </div>
+        <br>
+        <div>
+            <label for="">Last Name</label>
+            <input type="text" name="last-name">
+        </div>
+        <br>
+        <div>
+            <label for="">Email</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="">Message</label>
+            <textarea name="Message" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="">Gender</label>
+            <select name="gender" id="">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">Age:</label>
+            <input type="number" name="age" value="18">
+        </div>
+        <br>
+        <div>
+            <label for="">Date Of Birth</label>
+            <input type="date" name="DOB">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+    <hr>
+
+    <!-- Button -->
+    <button>Click me</button>
+        
     <div style="margin-top:500px"></div>
 
 </body>
